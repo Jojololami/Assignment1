@@ -162,12 +162,6 @@ section {
     font-weight: bold;
     color: grey;
 }
-.sign-up .signup_form .birthday {
-    margin-top: 15px;
-    font-size: 20px;
-    font-weight: bold;
-    color: grey;
-}
 
 .sign-up .signup_form .birth_hint{
     font-size: 11px;
@@ -235,13 +229,82 @@ section {
     header {
         width: 150%;
         height: 80px;
-        font-size: 15px;
+        font-size: 13px;
 }
 .header-block {
     width: 750px;
     margin: 0 auto;
     padding-top: 15px;
 }
+.facebook-connect p {
+    font-size: 15px;
+    margin-left: 70px;
+}
+.facebook-connect img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    width: 20%;
+}
+section {
+    height: 614px;
+    width: 150%;
+}
+.sign-up h2 {
+    font-size: 25px;
+    
+}
+.sign-up .free {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+}
+.sign-up .signup_form input {
+    margin-top: 0px;
+    height: 25px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+.sign-up .signup_form .birthday{
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+}
+
+.sign-up .signup_form .birth_hint{
+    font-size: 8px;
+    margin-top: -28px;
+    margin-left: 0px;
+    width: 150px;
+}
+.sign-up .signup_form input[type="radio"]{
+    height:10px;
+}
+
+.sign-up .signup_form .agreement {
+    font-size: 10px;
+
+}
+.sign-up .signup_form .signup {
+    margin-top: 20px;
+    height: 35px;
+    width: 160px;
+    font-size:15px;
+   
+}
+.sign-up .signup_form .celeb {
+    font-size: 15px;
+}
+.signup_form label{
+    font-family: bold;
+    font-size: 15px;
+    font-style: arial;
+}
+
 }
 
 
