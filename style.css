@@ -1,3 +1,4 @@
+
 *{
     padding: 0px;
     margin: 0px;
@@ -39,6 +40,10 @@ header {
  .email label {
     padding-bottom: 10px; 
     color: antiquewhite;
+ }
+ .email a {
+    color: #8fb1d8;
+    text-decoration: none;
  }
  email input[type="text"] {
     height: 20px;
@@ -111,14 +116,14 @@ section {
 } 
 .sign-up h2 {
     font-size: 40px;
-    float: right;
-    margin-top: 25px;
-    margin-left:0px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
     
 }
 .sign-up .free {
     font-size: 20px;
-    margin-top: 65px;
+    margin-top: 5px;
     margin-bottom: 25px;
     margin-left: 0px;
 }
@@ -178,7 +183,7 @@ section {
 }
 .sign-up .signup_form input[type="radio"]{
     height:15px;
-    margin-left: 0px;
+    margin-left: -40px;
     margin-top: 30px;
 }
 
@@ -215,5 +220,31 @@ section {
 .footer{
     background-color: white;
 }
+.button{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.toBeAligned {
+    text-align: right;
+}
+.sign-up .signup_form .birth_date a {
+    text-align: left;
+    
+}
+@media (max-width:900px){
+    header {
+        width: 150%;
+        height: 80px;
+        font-size: 15px;
+}
+.header-block {
+    width: 750px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+}
+
+
+
 
 

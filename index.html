@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cloning Facebook design with HTML & CSS</title>
+        
+
         <link rel="stylesheet" type="text/css" href="style.css"> <link/>
 
     </head>
@@ -17,12 +20,14 @@
                     <div class="email">
                         <label>Email or Phone</label> <br>
                         <input type="text" name="email">
+                        <br>
+                        <a href="#">Keep me logged in</a>
                     </div> <!--email-->
                     <div class="password">
                         <label>Password</label> <br>
                         <input type="password" name="password">
                         <br>
-                        <a href="#">Forgotten account?</a>
+                        <a href="#">Forgotten your password?</a>
                     </div> <!--password-->
                     <div class="login-button">
                         <input type="submit" value="log In">
@@ -104,9 +109,9 @@
                         <br>
                         <br>
             
-                        <label class="birthday">Birthday</label><br> <br> 
-                        <input class="birth_hint" type="date" name="date"> <a href="#">Why do I need to provide my birthday? </a><br>
-                        <!--<div class="birth_date">
+                        <label class="birthday">Birthday</label><br> 
+                       <!-- <input class="birth_hint" type="date" name="date"> --> 
+                        <div class="birth_date">
                             <select class="month">
                                 <option>Month</option><option>Jan</option><option>Feb</option><option>Mar</option>
                                 <option>April</option><option>May</option><option>June</option>
@@ -128,7 +133,7 @@
                             </select>
 
                             <select class="year">
-                                <option>year</option><option>1970</option><option>1972</option><option>1974</option>
+                                <option>Year</option><option>1970</option><option>1972</option><option>1974</option>
                                 <option>1976</option><option>1978</option><option>1980</option>
                                 <option>1982</option><option>1983</option><option>1984</option>
                                 <option>1986</option><option>1988</option><option>1990</option>
@@ -138,15 +143,29 @@
                                 <option>2006</option><option>2007</option><option>2008</option>
                                 <option>2009</option><option>2010</option>
                             </select>
+                            <a href="#">Why do I need to provide my birthday? </a><br>
+                         
+                            <div style="text-align: center;">
+                                <div style="display: inline-block; text-align: left;">
+                                    Why do I need to provide my<br />
+                                    birthday?
+                                </div>
+                            </div>
+    
                     
                             
-                        </div>-->
-                        <label>
-                            <input class="button" type="radio" name="gender" value="Female">Female
-                        </label>
-                        <label>
-                            <input class="button" type="radio" name="gender" value="Male">Male 
-                        </label> 
+                        </div>
+                        <div class="radio-group">
+                            <label>
+                                <input type="radio" value="female" name="gender">Female
+                                <span></span>
+                            </label>
+                            <label>
+                                <input type="radio" value="male" name="gender">Male
+                                <span></span>
+                            </label>
+                        </div>
+                        
                         <br>
 
                        
