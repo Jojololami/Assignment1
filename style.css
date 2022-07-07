@@ -270,19 +270,28 @@ section {
 }
 .sign-up .signup_form .birthday{
     margin-top: 8px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     color: grey;
 }
+.sign-up .signup_form .birth_date .month, .sign-up .signup_form .birth_date .day, .sign-up .signup_form .birth_date .year {
+    font-size: 11px;
+    margin-top: -28px;
+    margin-left: 0px;
+}
 
-.sign-up .signup_form .birth_hint{
-    font-size: 8px;
+.sign-up .signup_form .birth_date a {
+    font-size: 12px;
     margin-top: -28px;
     margin-left: 0px;
     width: 150px;
 }
+
 .sign-up .signup_form input[type="radio"]{
     height:10px;
+}
+.sign-up .signup_form .radio-group label {
+    font-size:11px;
 }
 
 .sign-up .signup_form .agreement {
